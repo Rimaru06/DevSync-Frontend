@@ -1,1 +1,20 @@
 @import "tailwindcss";
+
+:root {
+  --primary-color: #137fec;
+  --foreground-color: #111827;
+  --secondary-foreground-color: #6b7280;
+  --background-color: #ffffff;
+  --card-color: #f9fafb;
+  --border-color: #e5e7eb;
+}
+
+.tab-active {
+  border-bottom: 2px solid var(--primary-color);
+  color: var(--primary-color);
+  font-weight: 600;
+}
+
+body {
+  font-family: Inter, 'Noto Sans', sans-serif;
+}
